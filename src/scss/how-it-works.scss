@@ -1,0 +1,52 @@
+.how-it-works-content-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 50px;
+  @include media(desktop) {
+    padding-bottom: 100px;
+    gap: 50px;
+  }
+}
+
+.hiw-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  @include media(desktop) {
+    width: 100%;
+  }
+}
+
+.hiw-list-tem {
+  display: flex;
+  align-items: center;
+  padding-left: 23px;
+  padding-right: 12px;
+  gap: 10px;
+  border-radius: 44px;
+  width: 327px;
+  background: linear-gradient(
+    315deg,
+    rgba(155, 177, 182, 0.5) 0%,
+    rgba(146, 167, 172, 0.5) 27.88%,
+    rgba(150, 172, 176, 0.5) 69.23%,
+    rgba(91, 106, 109, 0.5) 84.13%,
+    rgba(28, 36, 37, 0.5) 100%
+  );
+
+  @include media(desktop) {
+    width: 100%;
+  }
+}
+
+.hiw-img {
+  width: 74px;
+  height: 74px;
+  @include media(desktop) {
+    width: 140px;
+    height: 140px;
+  }
+}

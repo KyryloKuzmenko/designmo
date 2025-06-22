@@ -1,0 +1,41 @@
+.contact-content-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+  @include media(desktop) {
+    padding-bottom: 100px;
+  }
+}
+
+.contact-info {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 4px;
+  border-radius: 44px;
+  background: linear-gradient(
+    315deg,
+    rgba(155, 177, 182, 0.5) 0%,
+    rgba(146, 167, 172, 0.5) 27.88%,
+    rgba(150, 172, 176, 0.5) 69.23%,
+    rgba(91, 106, 109, 0.5) 84.13%,
+    rgba(28, 36, 37, 0.5) 100%
+  );
+  @include media(desktop) {
+    width: 985px;
+    padding: 24px 56px;
+    margin-top: 50px;
+  }
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.contact-list-item {
+  font-weight: 600;
+}

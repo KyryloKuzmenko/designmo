@@ -1,0 +1,11 @@
+.about-section .about-content-wrap {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 15px;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  @include media(desktop) {
+    padding: 100px 80px;
+  }
+}

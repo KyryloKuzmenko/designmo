@@ -1,0 +1,41 @@
+.features-content-wrap  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 50px;
+  @include media(desktop) {
+    padding-bottom: 100px;
+    gap: 50px;
+  }
+}
+
+
+.features-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 27px;
+  @include media(desktop) {
+    gap: 50px;
+  }
+}
+
+.features-ico-1 {
+  width: 50px;
+  height: 50px;
+  @include media(desktop) {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+.features-list-item {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  @include media(desktop) {
+    gap: 65px;
+  }
+}

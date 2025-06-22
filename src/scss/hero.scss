@@ -1,0 +1,106 @@
+.hero-content-wrap {
+  padding-top: 62px;
+  @include media(desktop) {
+    padding: 0;
+  }
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    315deg,
+    rgba(155, 177, 182, 0.5) 0%,
+    rgba(146, 167, 172, 0.5) 79.81%,
+    rgba(28, 36, 37, 0.5) 100%
+  );
+  border-radius: 50px;
+  width: 100%;
+  position: relative;
+  left: -9px;
+  width: calc(100% + 18px);
+  // overflow: hidden;
+  padding-bottom: 40px;
+  @include media(desktop) {
+  }
+}
+
+.hero-content-box {
+  @include media(desktop) {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.hero-text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @include media(desktop) {
+    justify-content: space-between;
+    padding-top: 83px;
+    padding-bottom: 253px;
+  }
+}
+
+.hero-title {
+  width: 321px;
+  height: 59px;
+  text-align: center;
+  margin-top: 15px;
+  @include media(desktop) {
+    width: 100%;
+    margin-top: 17px;
+  }
+}
+
+.hero-image {
+  width: 315px;
+  height: 313px;
+  @include media(desktop) {
+    width: 750px;
+    height: 750px;
+  }
+}
+
+.hero-description {
+  width: 324px;
+  height: 94px;
+  text-align: left;
+  margin-top: 10px;
+  @include media(desktop) {
+    // width: 448px;
+    // height: 165px;
+    width: 100%;
+    padding-left: 32px;
+    padding-right: 47px;
+  }
+}
+
+.download-btn {
+  width: 270px;
+  height: 36px;
+  background: white;
+  border-radius: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 34px;
+  @include media(desktop) {
+    //     width: 373px;
+    // height: 51px;
+    width: 100%;
+    max-width: 373px;
+  }
+}
+
+.download-text {
+  font-size: 16px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  color: black;
+}
